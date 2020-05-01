@@ -4,13 +4,13 @@
         <title>SpoonFed</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="css/foundation.css" />
-        <link rel="stylesheet" type="text/css" href="css/spoon.css" />
+        <link rel="stylesheet" type="text/css" href="../../css/foundation.css" />
+        <link rel="stylesheet" type="text/css" href="../../css/spoon.css" />
     </head>
     <body>
 		<div class="base"></div>
 	    <div id="header">
-			<?php include("header.php"); ?>
+			<?php include("../../header.php"); ?>
 	    </div>
 
 	    <div id="content">
@@ -22,21 +22,37 @@
 
 			<div class="row">
 				<div class="small-24 medium-5 large-4 columns">
-					<?php include("leftside.php"); ?>
+					<?php include("../../leftside.php"); ?>
 				</div>
 				<div class="small-24 medium-19 large-14 columns">
 					<div class="layer">
-						<iframe src="https://kiwiirc.com/client/chat.freenode.net/?nick=Anon|?&theme=cli##SpoonFed" style="border:0; width:100%; height:450px;"></iframe>
-						<hr />
+						<p>Here's a list of some of our favorite programming resources:</p>
+						<ul>
+							<li> C++ </li>
+							<li> Java </li>
+							<li> Python </li>
+							<li>  </li>
+							<li>  </li>
+							<li>  </li>
+							<li>  </li>
+							<li>  </li>
+							<li>  </li>
+							<li>  </li>
+							<li>  </li>
+							<li>  </li>
+						</ul>
+							
+						<hr />			    
 					</div>
 				</div>
 				<div class="small-24 medium-24 large-6 columns">
-					<?php include("rightside.php"); ?>
+					<?php include("../../rightside.php"); ?>
 				</div>
 			</div>
 	    </div>
 
-		<?php include("footer.php"); ?>
+
+		<?php include("../../footer.php"); ?>
 	    
     </body>
 </html>

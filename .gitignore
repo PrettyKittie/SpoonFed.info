@@ -1,0 +1,17 @@
+# ----------------------------------------------------------------
+# Ignores nothing unless otherwise specified.
+#
+# To stop tracking a file that is currently tracked, use
+# git rm --cached
+#
+# ----------------------------------------------------------------
+
+# Ignore the following:
+
+# --- Test Files --- #
+
+/test
+/test/*
+test.php
+
+# --- Hidden Dirs --- #
