@@ -68,7 +68,7 @@
 						
 						<h4>Kali</h4>
 						<ul>
-							<li>Kali Linux Revealed: <a href="https://kali.training/introduction/kali-linux-revealed-book" target="_blank">Kali Linux Revealed eBook</a> / <a href="www.amazon.com/Kali-Linux-Revealed-Penetration-Distribution/dp/0997615605/ref=pd_sim_14_4" target="_blank">Book</a></li>
+							<li>Kali Linux Revealed: <a href="https://kali.training/lessons/introduction/" target="_blank">Kali Linux Revealed course and free eBook</a> / <a href="www.amazon.com/Kali-Linux-Revealed-Penetration-Distribution/dp/0997615605/ref=pd_sim_14_4" target="_blank">Printed Book</a></li>
 						</ul>
 						
 						<h4>Metasploit Framework</h4>
