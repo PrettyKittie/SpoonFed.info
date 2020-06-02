@@ -37,8 +37,8 @@
 								<li><a href="#4">Persistence</a></li>
 								<li><a href="#5">Examples</a></li>
 								<li><a href="#6">Additional Options</a></li>
-                <li><a href="#7">Closing Thoughts</a></li>
-                <li><a href="#8">Additional Resources &amp; Recommended Reading</a></li>
+           							<li><a href="#7">Closing Thoughts</a></li>
+                						<li><a href="#8">Additional Resources &amp; Recommended Reading</a></li>
 							</ol>					
 						</section>
 						
@@ -51,27 +51,25 @@
 						
 						<section>
 							<a class="anchor" name="1" id="1"></a>
-							<h4>1) Description</h4>
+							<h4>1) $$$$Description</h4>
 							<p>Explanation of netfilter,and iptables vs ip6tables</p>
 								<pre> $$$$$$$$$</pre>
-							<p>what are chains</p>
-			
+							<p>what are chains</p>			
 							<p>actions</p>
-              <p>default policies</p>
-              <p>basic structure of a command</p>
-              
+              						<p>default policies</p>
+              						<p>basic structure of a command</p>              
               
 							<a class="back-to-top" href="#top">Back to top</a>				
 						</section>
 						
 						<section>
 							<a class="anchor" name="2" id="2"></a>
-							<h4>2) IPTables Commands</h4>				
+							<h4>2) $$$$$IPTables Commands</h4>				
 							<p>$$$$$$$$$</p>
 								<pre> 
 $$$$$$$$$
 								</pre>
-              <p>$$$$$$$$$</p>
+              							<p>$$$$$$$$$</p>
 								<ul>
 									<li>$$$$$$$$$</li>
 										<pre> $$$$$$$$$ </pre>
@@ -82,7 +80,7 @@ $$$$$$$$$
 						
 						<section>
 							<a class="anchor" name="3" id="3"></a>
-							<h4>3) Connection States</h4>		
+							<h4>3) $$$$$Connection States</h4>		
 							<p>$$$$$$$$$</p>
 							<p>$$$$$$$$$</p>
               
@@ -91,7 +89,7 @@ $$$$$$$$$
 						
 						<section>
 							<a class="anchor" name="4" id="4"></a>
-							<h4>4) Making Rulesets Persistent</h4>
+							<h4>4) $$$$$$Making Rulesets Persistent</h4>
 							<pre> $$$$$$$$$ </pre> 
 							<a class="back-to-top" href="#top">Back to top</a>
 				
@@ -99,7 +97,7 @@ $$$$$$$$$
 
 						<section>
 							<a class="anchor" name="5" id="5"></a>
-							<h4>5) Example Rulesets</h4>
+							<h4>5) $$$$$$$Example Rulesets</h4>
 							<pre> $$$$$$$$$ </pre> 
 							<a class="back-to-top" href="#top">Back to top</a>
 				
@@ -107,29 +105,29 @@ $$$$$$$$$
             
 						<section>
 							<a class="anchor" name="6" id="6"></a>
-							<h4>6) Additional Options</h4>
-              <p> Brute-Force Protection</p>
-              <p> Ban by Geolocation </p>
-              <p> Fail2Ban </p>
+							<h4>6) $$$$$$Additional Options</h4>
+              						<p> Brute-Force Protection</p>
+              						<p> Ban by Geolocation </p>
+              						<p> Fail2Ban </p>
 							<a class="back-to-top" href="#top">Back to top</a>
 				
 						</section>            
 
 						<section>
 							<a class="anchor" name="7" id="7"></a>
-							<h4>7) Closing Thoughts</h4>
+							<h4>7) $$$$$$Closing Thoughts</h4>
 							<p> This cheatsheet should hopefully give you a solid understanding of what the linux netfilter is, and how to use the iptables command for basic configuration.  It is important to always keep in mind that your needs and your environment will determine which, if any, of these recommendations work for you.  You should always keep your threat model in mind when implementing configuration changes, and never blindly follow advice on the internet.  Remember: Trust, but verify!  Do you think I missed something?  Did a step not work?  Could this simply be the most bestest article you've ever seen on the interwebz?  Feel free to stop by the <a href="http://www.spoonfed.info/index.php">channel</a> and let us know what you think.  You can send your flames or flattery for this article to PrettyKittie via <a href="http://www.spoonfed.info/index.php" target="_blank">IRC</a> or <a href="http://www.spoonfed.info/whoami.php" target="_blank">email.</a> </p>
 							<a class="back-to-top" href="#top">Back to top</a>
               
-            </section>
+            					</section>
 
 						<section>
 							<a class="anchor" name="8" id="8"></a>
-							<h4>8) Additional Resources &amp; Recommended Reading</h4>
+							<h4>8) $$$$$$$Additional Resources &amp; Recommended Reading</h4>
 							<ul>
 								<li>The #NetFilter IRC channel on Freenode</li>
 								<li><a href="https://blog.thermicorp.de/?p=12" target="_blank">Additional NetFilter links and tutorials</a></li>
-                <li><a href="$$$$$$$$$" target="_blank">$$$$$$$$$</a></li>            
+                						<li><a href="$$$$$$$$$" target="_blank">$$$$$$$$$</a></li>            
 							</ul>
 						</section>
 						
