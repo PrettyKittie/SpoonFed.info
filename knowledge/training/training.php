@@ -27,10 +27,24 @@
 				<div class="small-24 medium-19 large-14 columns">
 					<div class="layer">
 <!-- Because I'm Lazy...
+						<h4></h4>
+						<ul>
 							<li><a href="" target="_blank"></a></li>
+						</ul>
 -->							
 					
 						<p>Here's a list of some of our favorite training sites:</p>
+						
+						<h4>Advice to Get Started</h4>
+						<ul>
+							<li><a href="https://noobsec.net/starting-point/" target="_blank">Getting Into Cybersecurity</a> - Red Team Edition</li>
+							<li><a href="https://github.com/ED-209-MK7/5pillars/blob/master/5-Pillars.md" target="_blank">The Five Pillars</a> of an Information/Cyber Security Professional</li>
+						</ul>
+						
+						<h4>Linux</h4>
+						<ul>
+							<li><a href="https://linuxzoo.net/" target="_blank">Linux Zoo</a></li>
+						</ul>
 						
 						<h4>Coding Training</h4>
 						<ul>
@@ -39,6 +53,8 @@
 							<li><a href="https://www.codewars.com" target="_blank">Code Wars</a> Code Challenges </li>
 							<li><a href="https://www.tutorialspoint.com/tutorialslibrary.htm" target="_blank">Tutorials Point</a> Tutorial tracks on many languages, and other misc topics</li>
 							<li><a href="https://teamtreehouse.com/" target="_blank">Team TreeHouse</a> - Paid training, focusing on web coding</li>
+							<li><a href="https://www.cplusplus.com/" target="_blank">The C++ Resources Network</a></li>
+							<li><a href="https://www.cprogramming.com/" target="_blank">Cprogramming.com - Learn C and C++ Programming</a></li>
 						</ul>
 						
 						<h4> CLI Training</h4>
@@ -54,16 +70,34 @@
 						
 						<h4>Security, Technology, &amp; Tools Training</h4>
 						<ul>
+							<li><a href="https://pwn.college/" target="_blank">pwn.college</a> - Based on ASU's CSE466 college course</li>
 							<li><a href="https://www.cybrary.it/" target="_blank">Cybrary</a> - Free and Open Source Learning for Cyber Security, IT and more. </li>
 							<li><a href="https://hackmethod.com/" target="_blank">Hackmethod</a></li>
 							<li><a href="https://hakin9.org/online-courses/" target="_blank">hakin9.org</a></li>
 							<li><a href="https://www.edx.org" target="_blank">edx.org</a></li>
 							<li><a href="www.hackingtutorials.org" target="_blank">hackingtutorials.org</a></li>
 							<li><a href="http://opensecuritytraining.info/" target="_blank">Open Security Training</a></li>
+							<li><a href="https://www.cyberseclabs.co.uk/" target="_blank">CyberSecLabs Home page</a></li>
 							<li><a href="https://www.oeconsortium.org/courses/" target="_blank">Open Education Consortium</a> - Many courses in addition to IT and Math</li>
 							<li><a href="https://www.khanacademy.org/" target="_blank">Khan Academy</a> - Another site with courses in Comp Sci, Math, and more</li>
 							<li><a href="www.virtualhackinglabs.com" target="_blank">virtualhackinglabs.org</a> - requires paid subscription </li>
 							<li><a href="https://www.hacktory.ai" target="_blank">Hacktory</a> - Game-like paid classes</li>
+						</ul>
+						
+						<h4>Web Application Hacking</h4>
+						<ul>
+							<li><a href="https://xss.pwnfunction.com/" target="_blank">Learning XSS Made Simple</a></li>
+							<li><a href="https://portswigger.net/web-security" target="_blank">Web Security training</a> from the Burp Site creators</li>
+						</ul>
+						
+						<h4>Binary Exploitation</h4>
+						<ul>
+							<li><a href="https://guyinatuxedo.github.io/" target="_blank">Intro to binary exploitation/reverse engineering</a></li>
+						</ul>
+						
+						<h4>Wireless and Radio</h4>
+						<ul>
+							<li><a href="http://www.arrl.org/" target="_blank">The National Association for Amateur Radio</a></li>
 						</ul>
 						
 						<h4>Kali</h4>
@@ -72,8 +106,22 @@
 						</ul>
 						
 						<h4>Metasploit Framework</h4>
-						<ul>	
+						<ul>
 							<li><a href="https://www.offensive-security.com/metasploit-unleashed/" target="_blank"> Metasploit Unleashed </a></li>
+						</ul>
+						
+						<h4>Check your public IP address</h4>
+						<ul>
+							<li><a href="https://ipchicken.com/" target="_blank">https://ipchicken.com/</a></li>
+							<li><a href="https://wtfismyip.com/" target="_blank">https://wtfismyip.com/</a> - NSFW</li>
+							<li><a href="https://www.moanmyip.com/" target="_blank">https://www.moanmyip.com/</a> - NSFW</li>
+						</ul>
+						
+						<h4>Defensive Skills &amp; Tools</h4>
+						<ul>
+							<li><a href="https://www.f5.com/services/training/free-training-courses" target="_blank">F5 Products</a> training courses</li>
+							<li><a href="https://www.splunk.com/en_us/training.html" target="_blank">Splunk Training</a></li>
+							<li><a href="https://dfirmadness.com/" target="_blank">DFIR Madness</a> - Spawned from the '5 Pillars' github</li>
 						</ul>
 						
 						<h4>Ranges, Wargames, &amp; Virtual Machines</h4>
@@ -97,6 +145,7 @@
 							<li><a href="https://github.com/rapid7/metasploitable3" target="_blank"> Metasploitable3 (windows server-based) </a></li>
 							<li><a href="https://www.owasp.org/index.php/Category:OWASP_WebGoat_Project" target="_blank"> Webgoat </a></li>
 							<li><a href="https://sourceforge.net/projects/mutillidae/" target="_blank"> Mutilladae </a></li>
+							<li><a href="https://www.offensive-security.com/labs/" target="_blank">OffSec Proving Grounds</a></li>
 						</ul>
 				
 						<h4>VPS</h4>
@@ -108,7 +157,7 @@
 						<ul>
 							<li><a href="https://www.youtube.com/user/Albert10110" target="_blank"> Al Sweigart </a> Coding and kid-friendly resources</li>
 							<li><a href="https://www.youtube.com/user/Hak5Darren" target="_blank"> hak5 </a></li>
-                			<li><a href="https://www.youtube.com/user/cbtnuggets" target="_blank"> CBT Nuggets </a></li>
+                					<li><a href="https://www.youtube.com/user/cbtnuggets" target="_blank"> CBT Nuggets </a></li>
 							<li><a href="https://www.youtube.com/user/elithecomputerguy" target="_blank"> Eli The Computer Guy </a></li>
 							<li><a href="https://www.youtube.com/user/professormesser" target="_blank"> Professor Messer </a></li>
 							<li><a href="https://www.youtube.com/user/DashnineMedia" target="_blank"> Raphael Mudge </a></li>
@@ -139,6 +188,5 @@
 
 
 		<?php include("../../footer.php"); ?>
-	    
     </body>
 </html>
