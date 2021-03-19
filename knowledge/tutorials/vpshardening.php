@@ -36,8 +36,9 @@
 								<li><a href="#3">New User</a></li>
 								<li><a href="#4">SSH</a></li>
 								<li><a href="#5">Fail2Ban</a></li>
-								<li><a href="#6">Services</a></li>
-								<li><a href="#7">Closing Thoughs</a></li>
+								<li><a href="#6">IP Tables</a></li>
+								<li><a href="#7">Services</a></li>
+								<li><a href="#8">Closing Thoughs</a></li>
 							</ol>
 						</section>
 
@@ -52,9 +53,9 @@
 						<section>
 							<a class="anchor" name="1" id="1"></a>
 							<h4>1) Configure Root</h4>
-							<p> A)  Set a strong password using the passwd command: <p>
+							<p> Set a strong password using the passwd command: <p>
 							<pre> root@haxbox ~ # passwd </pre>
-							<p> You can <a href="" target="_blank">go here</a> for my guidelines on choosing a strong password </p>
+							<p> You can <a href="http://spoonfed.info/knowledge/tutorials/passwords.php" target="_blank">go here</a> for my guidelines on choosing a strong password </p>
 							<a class="back-to-top" href="#top">Back to top</a>						
 						</section>
 
@@ -129,13 +130,13 @@
 							<a class="anchor" name="5" id="5"></a>
 							<h4>5) Fail2Ban</h4>
 							<p> Install Fail2Ban and make create the local configuration files:</p>
-                                <pre>
+							<pre>
     sudo apt-get install fail2ban						
     cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local
     cp /etc/fail2ban/jail.d/defaults-debian.conf /etc/fail2ban/jail.d/defaults-debian.local
-                                </pre>
-                            <p>Edit the following settings in etc/fail2ban/jail.local</p>
-                                <pre>
+							 </pre>
+							<p>Edit the following settings in etc/fail2ban/jail.local</p>
+							<pre>
     [DEFAULT]
     bantime = 600
     findtime = 600
@@ -145,12 +146,12 @@
     port    = ssh
     logpath = %(sshd_log)s
     backend = %(sshd_backend)s 
-                                </pre>
-                            <p>Make sure the following text is /etc/fail2ban/jail.d/defaults-debian.local</p>
-                                <pre>
+							</pre>
+							<p>Make sure the following text is /etc/fail2ban/jail.d/defaults-debian.local</p>
+ 							<pre>
     [sshd]
     enabled = true
-                                </pre>
+							</pre>
 							<p> Restart the fail2ban service </p>
 							<pre> haxor@haxbox ~ $ sudo service fail2ban restart </pre>    
 							<p> You can <a href="http://spoonfed.info/knowledge/tutorials/configurefail2ban.php">go here</a> for a deeper explanation of how these settings work and some alternative configurations</p>
@@ -160,14 +161,51 @@
 
 						<section>
 							<a class="anchor" name="6" id="6"></a>
-							<h4>6) Services</h4>
+							<h4>6) IP Tables</h4>
+							<p> Ensure IP Tables is installed, and configure it to allow SSH and block everything else:</p>
+							<pre>
+    sudo apt-get install iptables						
+    sudo iptables -F
+    sudo iptables -X
+    sudo iptables -P INPUT ACCEPT
+    sudo iptables -P FORWARD ACCEPT
+    sudo iptables -P OUTPUT ACCEPT
+							</pre>
+							<p>Next allow SSH traffic to the SSH port:</p>
+							<pre>
+    sudo iptables -A INPUT -p tcp --dport ssh -m state --state NEW,ESTABLISHED -j ACCEPT
+    sudo iptables -A OUTPUT -p tcp --sport 22 -m state --state ESTABLISHED -j ACCEPT
+							</pre>
+							<p>Allow any newoutbound connections established from the VPS, and allow any inbound connections that are related to existing outbound connections:</p>
+							<pre>
+    sudo iptables -A INPUT -p tcp -m state --state RELATED,ESTABLISHED -j ACCEPT
+    sudo iptables -A OUTPUT -p tcp -m state --state NEW,RELATED,ESTABLISHED -j ACCEPT
+							</pre>
+							<p> Now fix those default policies to drop any traffic that isn't specifically allowed: </p>
+							<pre>
+    sudo iptables -P INPUT DROP
+    sudo iptables -p FORWARD DROP
+    sudo iptables -P OUTPUT DROP
+							</pre>
+							<p> Save those rules and make them persistent.  Select 'Yes' to save the current rules, when prompted: </p>
+							<pre>
+    sudo apt install iptables-persistent
+							</pre>     
+							<p> You can <a href="http://spoonfed.info/knowledge/tutorials/iptables.php">go here</a> for a deeper explanation of how these settings work and some alternative configurations</p>
+							<a class="back-to-top" href="#top">Back to top</a>
+						
+						</section>
+
+						<section>
+							<a class="anchor" name="7" id="7"></a>
+							<h4>7) Services</h4>
 							<p> Coming soon...Disable any unnecessary services </p>
 							<a class="back-to-top" href="#top">Back to top</a>
 						</section>
 
 						<section>
-							<a class="anchor" name="7" id="7"></a>
-							<h4>7) Closing Thoughts</h4>
+							<a class="anchor" name="8" id="8"></a>
+							<h4>8) Closing Thoughts</h4>
 							<p> I'd like to re-iterate that this is simply intended to be a checklist for some generic hardening.  Do you think I missed something?  Did a step not work?  Could this simply be the most bestest article you've ever seen on the interwebz?  Feel free to stop by the <a href="http://www.spoonfed.info/index.php">channel</a> and let us know what you think.  You can send your flames or flattery for this article to PrettyKittie via <a href="http://www.spoonfed.info/index.php" target="_blank">IRC</a> or <a href="http://www.spoonfed.info/whoami.php" target="_blank">email.</a> </p>
 							<a href="#top">Back to top</a>
 						
