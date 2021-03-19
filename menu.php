@@ -7,7 +7,7 @@
                 <li><a href="/knowledge/lockpicking/locks.php">Lock Picking</a></li>
                 <li><a href="/knowledge/networking/networking.php">Networking</a></li>
                 <li><a href="/knowledge/OS/OS.php">OS</a></li>
-                <li><a href="/knowledge/OSINT/osint.php">OSINT</a></a></li>
+                <li><a href="/knowledge/OSINT/osint.php">OSINT</a></li>
                 <li><a href="/knowledge/phones/phones.php">Phones</a></li>
                 <li><a href="/knowledge/programming/programming.php">Programming</a></li>
                 <li><a href="/knowledge/security/security.php">Security</a></li>
