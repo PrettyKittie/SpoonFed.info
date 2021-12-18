@@ -17,7 +17,7 @@
 				<li><a href="/knowledge/wireless/wireless.php">Wireless</a></li>
             </ul>
         </li>
-	<li><a href="/chat.php">Chat</a></li>
+	<li><a href="https://kiwiirc.com/nextclient/irc.libera.chat/?##SpoonFed">Chat</a></li>
         <li><a href="/about.php">About</a></li>
         <li><a href="/whoami.php">Whoami</a></li>
     </ul>
