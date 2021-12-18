@@ -26,7 +26,7 @@
 				</div>
 				<div class="small-24 medium-19 large-14 columns">
 					<div class="layer">
-						<p> This is the official home of the SpoonFed Community!  Got some knowledge you can share or a question to ask?  Then you're in the right place!  Browse our site or join us in ##SpoonFed on the Freenode IRC network.
+						<p> This is the official home of the SpoonFed Community!  Got some knowledge you can share or a question to ask?  Then you're in the right place!  Browse our site or join us in ##SpoonFed on the <del>Freenode</del> <a href="https://libera.chat/about/" target="_blank">Libera</a> IRC network.
 						<p> We hope you find plenty resources here to help you throughout your learning journey. Please feel free to use and abuse our Knowledge Portal for IT and Security tips, tricks, tools, and tutorials! </p>
 						<p> Click our About page to get a feel for who we are and what we do here at ##Spoonfed </p>
 						<p> Our whoami page is the place to go to learn all about the founders, staff, contributors and volunteers who are all working hard to make the community grow! </p>
