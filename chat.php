@@ -26,7 +26,7 @@
 				</div>
 				<div class="small-24 medium-19 large-14 columns">
 					<div class="layer">
-						<iframe src="https://kiwiirc.com/client/chat.freenode.net/?nick=Anon|?&theme=cli##SpoonFed" style="border:0; width:100%; height:450px;"></iframe>
+						<iframe src="https://kiwiirc.com/client/irc.libera.chat/?nick=Anon/?&theme=cli##SpoonFed" style="border:0; width:100%; height:450px;"></iframe>
 						<hr />
 					</div>
 				</div>
